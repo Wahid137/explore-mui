@@ -2,8 +2,8 @@ import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { ThemeProvider, CssBaseline } from '@mui/material'
 import { theme } from './theme/theme';
+import Layout from '../components/Layout/Layout';
 import Home from './Pages/Home/Home';
-import Layout from './Components/Layout/Layout';
 const router = createBrowserRouter([
   {
     element: <Layout></Layout>,

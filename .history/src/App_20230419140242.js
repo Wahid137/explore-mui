@@ -1,9 +1,7 @@
+import logo from './logo.svg';
 import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { ThemeProvider, CssBaseline } from '@mui/material'
-import { theme } from './theme/theme';
-import Home from './Pages/Home/Home';
-import Layout from './Components/Layout/Layout';
 const router = createBrowserRouter([
   {
     element: <Layout></Layout>,
